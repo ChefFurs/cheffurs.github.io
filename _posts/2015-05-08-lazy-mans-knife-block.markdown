@@ -23,3 +23,21 @@ case organization
     chef_server_url "https://api.otherorg.net/organizations/bar"
 ```
 etc, etc
+
+
+### Bonus tip
+If you are a fish user add this somewhere to your `fish_prompt.fish`
+
+```
+  #CHEF
+  set -g fish_color_chef blue
+  if set -q CHEF_ENV
+    printf '🍴 '
+    set_color $fish_color_chef
+    printf '%s ' $CHEF_ENV
+    set_color normal
+  end
+```
+I put it between the hostname and pwd.
+Also if you are a fish user you can be super lazy and not even use caps in your
+  enviroment variables; `set chefe orgname` works well
