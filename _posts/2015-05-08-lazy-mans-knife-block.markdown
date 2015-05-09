@@ -4,7 +4,7 @@ title: Lazy Mans `knife-block`
 ---
 # Lazy Mans `knife-block`
 Manage multiple chef orgs/servers? Can't be bothered with the pain of installing
-  a whole gem?  Add this to your knife.rb:
+  a whole gem?  Want this all exposed by a shell variable for prompt hotness? In your `.chef/knife.rb`:
 
 ```
 organization = ENV['CHEF_ENV'] || "a-sane-default"
