@@ -40,4 +40,4 @@ If you are a fish user add this somewhere to your `fish_prompt.fish`
 ```
 I put it between the hostname and pwd.
 Also if you are a fish user you can be super lazy and not even use caps in your
-  enviroment variables; `set chefe orgname` works well
+  enviroment variables; `set -x chefe orgname` works well. Don't forget the `-x` that's important
